@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="main.css"/>
+    <title>Tapis de Sierpinski</title>
+  </head>
+  <body>
+    <div class="coin">
+        <h1>Tapis de Sierpinski</h1>
+    </div>
+    <h3><strong>Description du programme</strong></h3>
+    <p>Le programme repose sur 4 fonctions principales : </p>
+    <ul> 
+      <li>Dessiner</li>
+      <li>RegleSierpinski</li>
+      <li>CourbeSierpinski</li>
+      <li>TriangleSierpinski</li>
+    </ul>
+      <p>
+      Dessiner permet de tracer une courbe avec un angle et une longueur données. Elle appelle <strong>TriangleSierpinski</strong> qui elle même appelle <strong>CourbeSierpinski</strong> qui elle meme appelle        <strong>RegleSierpinski</strong>.</p>
+      <p><strong>TriangleSierpinski</strong> trace le motif initiale en fonction de Niter.</p>
+      <p><strong>CourbeSierpinski</strong> va appeller Niter fois la "regleSierpinski" pour creer la courbe de Sierpinski.</p>
+      <p><strong>RegleSierpinski</strong> permet le decodage de la chaine de caractere donnee </p>
+    <h3>Difficultes rencontrees</h3>
+    <p>J'ai mis du temps à comprendre qu'il fallait appeler la fonction <strong>triangleSierpinski</strong> dans la fonction dessiner.</p>
+    <p>J'ai resolu ce probleme en modifiant le code python du TP pour obtenir un flocon complet.</p>
+    <p>Puis,j'ai procedé par analogie pour le tapis.</p>
+   <img src="Sierpinski_1.png" alt="Tapis de Sierpinski Python Image 1"/>
+       
+      <img src="Sierpinski_2.png" alt="Tapis De Sierpinski Python Image 2"/>
+      <h3>Lien de telechargement du programme</h3>
+      
+    <a href="Sierpinski.py" download="Sierpinski.py"> Telecharger le programme </a>  
+  </body>
+ <p id="centrage"><a href="index.html">Retour a la meilleur page d'acceuille Du Monde</a>  </p>
